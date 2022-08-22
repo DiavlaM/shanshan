@@ -1,9 +1,8 @@
 name: morning
 on:
   schedule:
-  - cron:  '0 8 * * *'
-  workflow_dispatch:
-
+  - cron:  '12 5 * * *'
+  
 jobs:
   send_message:
     runs-on: ubuntu-latest
